@@ -31,19 +31,19 @@ export const Intro = () => {
                     }}
                 >
                 <Image 
-                    src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100' 
+                    src='/ProfilePic.png' 
                     alt='profile pic'
                     width="192"
                     height="192"
                     quality="95"
                     priority={true}
-                    className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'                
+                    className='h-80 w-80 rounded-full object-cover border-[0.35rem] border-white shadow-xl'                
                 />
                 </motion.div>
             </div>
         </div>
         
-        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        <motion.h1 className='mb-10 mt-4 py-16 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{ opacity: 0,  y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >

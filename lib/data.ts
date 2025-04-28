@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import etchasketchImg from "@/public/Etch-a-Sketch.png"
+import RockPaperScissorsImg from "@/public/Rock-Paper-Scissors.png";
+import WeatherImg from "@/public/WeatherApp.png"
+
 
 export const links = [
   {
@@ -58,27 +59,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Rock Paper Scissors",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-    website: "https://weather-app-henna-seven.vercel.app/",
+      "Play against the computer in this classic game. It has a simple and clean design.",
+    tags: ["JavaScript", "CSS", "HTML"],
+    imageUrl: RockPaperScissorsImg,
+    website: "https://rock-paper-scissor-seven-ruddy.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "Etch-A-Sketch",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A simulation of the classic Etch-A-Sketch toy. Draw on a grid with your mouse.",
+    tags: ["JavaScript", "CSS", "HTML"],
+    imageUrl: etchasketchImg,
     website: "https://etch-a-sketch-indol.vercel.app/",
   },
   {
-    title: "Word Analytics",
+    title: "Weather App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A Public weather app that allows users to search for current weather conditions in any city. It uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
+    tags: ["React", "JavaScript", "CSS", "HTML"],
+    imageUrl: WeatherImg,
     website: "https://weather-app-henna-seven.vercel.app/",
   },
 ] as const;
